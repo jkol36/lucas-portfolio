@@ -1,0 +1,35 @@
+{% extends 'posts/base.html' %}
+{% block title %}ChillProger - posts
+{% endblock title %}
+{% block content %}
+<div class="container">
+    <div class="header-posts">
+        <p class="post-head" align="center"># Posts</p>
+
+        <a href="/"><p class="post-head-home">Home</p></a>
+
+        <a href="/"><p class="post-head-home-2">Contact me</p></a>
+
+        <a href="/"><p class="post-head-home-3">Projects</p></a>
+    </div>
+</div>
+
+<div style="clear: left"></div>
+
+<div class="container">
+	{% for post in post_list %}
+		<div class="post">
+			<div class="post_design">
+				<div class="name-post">
+					<a href="{% url 'post_detail' post.id %}"><h3 class="post-name">{{ post.title }}-</h3></a>
+                    <p>{{ post.date }}</p>
+                    <div style="clear: left"></div>
+                    <p>{{ post.description }}</p>
+				</div>
+				<br><br>
+			</div>
+			<br>
+		</div>
+	{% endfor %}
+</div>
+{% endblock %}

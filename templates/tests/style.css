@@ -1,0 +1,273 @@
+body {
+    background-color: #03031a;
+}
+
+.menu-list {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu-list-el {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.vert-text {
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    color: #bfbebe;
+    position: fixed;
+}
+
+.github {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.href-github {
+    text-decoration: none;
+}
+
+.text-github {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.how-i-am {
+    padding: 10px;
+}
+
+.konkurs {
+    font-family: 'Comfortaa', cursive;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 30px;
+    float: left;
+    color: #F8F8F8;
+    margin: 20px;
+    box-shadow: 0 0 15px #598ce5;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.hi-there {
+    color: cornflowerblue;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.hi-there-4 {
+    color: cornflowerblue;
+    font-size: 14px;
+    float: right;
+    padding-right: 10px;
+}
+
+.name-maksim {
+    color: #e2e2e2;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+}
+
+.my-description {
+    font-family: 'Comfortaa', cursive;
+    color: #b1b0b0;
+    font-size: 25px;
+}
+
+.other-description-1 {
+    font-family: 'Comfortaa', cursive;
+    background-color: #598ce5;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.other-description-2 {
+    font-family: 'Comfortaa', cursive;
+    background-color: #50CB93;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.other-description-3 {
+    font-family: 'Comfortaa', cursive;
+    background-color: #ED8E7C;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.other-description-4 {
+    font-family: 'Comfortaa', cursive;
+    background-color: #7C83FD;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.other-description-5 {
+    font-family: 'Comfortaa', cursive;
+    background-color: #FFC947;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+
+.who-is-maks {
+    color: #F8F8F8;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+.my-favorite-pr {
+    color: #F8F8F8;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.hi-there-2 {
+    color: cornflowerblue;
+    font-size: 20px;
+    float: right;
+    padding-right: 20px;
+}
+
+.hi-theres {
+    color: cornflowerblue;
+    font-size: 20px;
+    float: left;
+    padding-right: 20px;
+}
+
+.hi-there-3 {
+    color: cornflowerblue;
+    font-size: 20px;
+    text-align: right;
+    display: inline-block;
+}
+
+.col1 {
+    width:200px;
+    height:300px;
+    float:left;
+    box-shadow: inset -1px 0 0 #c3c3c3;
+}
+
+.col2 {
+    width:700px;
+    float:left;
+}
+
+.text-about-me {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: #cdc1c1;
+    padding-left: 20px;
+}
+
+.cloud {
+    float: left;
+    background-color: #2b2b30;
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.forest-chill {
+    font-family: 'Comfortaa', cursive;
+    color: #F8F8F8;
+    font-size: 30px;
+    float: left;
+}
+
+.language-1 {
+    font-family: 'Comfortaa', cursive;
+    color: #5ab3ef;
+    font-size: 15px;
+    float: left;
+    padding-right: 20px;
+}
+
+.language-2 {
+    font-family: 'Comfortaa', cursive;
+    color: #ac57cb;
+    font-size: 15px;
+    float: left;
+}
+
+.descriptionprogress {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    padding: 0px;
+    color: #bfbebe;
+}
+
+.prev-photo {
+    float: right;
+}
+
+@media all and (max-width: 635px) {
+    .icanuse {
+        padding-left: 10px;
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .icanuse {
+        padding-left: 10px;
+        width: 300px;
+    }
+
+    .text-about-me {
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        color: #cdc1c1;
+        padding: 20px;
+            float:left;
+    }
+
+    .menu-list {
+        text-align: center;
+
+    }
+
+    .menu-list-el {
+        font-family: 'Roboto', sans-serif;
+        display: inline;
+        list-style-type: none;
+        font-size: 12px;
+        color: white;
+
+        padding-right: 10px;
+    }
+
+}
+
+

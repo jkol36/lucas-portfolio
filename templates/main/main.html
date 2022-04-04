@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block content %}
+<div class="container">
+
+    <p class="href-posts">
+        <a href="posts/" style="color: #F8F8F8;">posts</a>
+    </p>
+
+    <p class="href-posts">
+        <a href="#projects" style="color: #F8F8F8;">projects</a>
+    </p>
+
+    <p class="href-posts">
+        <a href="#contact" style="color: #F8F8F8;">contact me</a>
+    </p>
+
+
+</div>
+<!--
+<div style="clear: left"></div>
+    <div class="container">
+        <div class="header">
+            <ul class="menu-list">
+
+                <a href="#about" style="text-decoration: none;"><li class="menu-list-el">About me</li></a>
+                <a href="#projects" style="text-decoration: none;"><li class="menu-list-el">My Projects</li></a>
+                <a href="#contact" style="text-decoration: none;"><li class="menu-list-el">Contact Me</li></a>
+            </ul>
+        </div>
+    </div>
+-->
+
+<div style="clear: left"></div>
+<div style="clear: right"></div>
+
+<!--
+<div class="vertical">
+    <p class="vert-text" style="writing-mode: tb-rl; ">chillproger@gmail.com</p>
+</div>
+-->
+
+<br><br><br><br><br>
+<div class="container">
+    <img src="https://cdn.discordapp.com/attachments/769529626610368522/866301650410668032/chillproger-1.jpg" width="300px" style="float: left;">
+    <div class="how-i-am">
+        <code class="hi-there">Hi there! I am</code>
+        <h1 class="name-maksim">Lucas Coffrey</h1>
+        <p class="my-description">I’m a Counsultant</p>
+        <p class="other-description-1"># Python</p>
+        <p class="other-description-2"># Django</p>
+        <p class="other-description-3"># HTML</p>
+        <p class="other-description-4"># CSS</p>
+        <p class="other-description-5"># JavaScript</p>
+
+    </div>
+</div>
+
+<div style="clear: left"></div>
+<div style="clear: right"></div>
+
+    <br><br><br>
+<div class="container" id="about">
+<br><br>
+
+    <div class="col">
+        <div class="about-me-prev">
+            <code class="hi-there">About me</code>
+                <div style="clear: right"></div>
+            <br>
+        </div>
+    </div>
+
+    <div class="col">
+        <p class="text-about-me">Hi. I don't know if you accidentally looked at my site or not, but tell me you're here, I'll tell you a little about myself.
+        I am a  Started studying programming at the age of 14. I saw how my friends tried to program too, but of all I was the only one left.
+            Then I started learning Python frameworks: django, numpy, pygame, kiwy, tkinter ...<br><br>I mastered the layout on html css js.All this time I tried to make projects that I uploaded to GitHub
+        And this site is one of my little projects that will lead me to something more.<br><br>These are just some of the technologies & apps I use to build my programs.</p>
+        <img class="icanuse" src="https://cdn.discordapp.com/attachments/769529626610368522/866420139003346985/skills.jpg" width="600px" style="filter: alpha(Opacity=75); /* Полупрозрачность для IE */
+    opacity: 0.75;">
+</div>
+
+<div style="clear: left"></div>
+<div style="clear: right"></div>
+<br><br><br><br>
+
+<div class="container" id="projects" align="center">
+<br><br>
+    <div class="myprojects">
+        <code class="hi-there-3">My projects</code>
+        <p class="my-favorite-pr">All, that i did with open repository</p>
+
+        <div class="cloud">
+            <p class="forest-chill">ForestChill</p>
+            <img src="https://rida.dev/src/webp/project-web.webp" class="prev-photo" width="100px">
+            <div style="clear: left"></div>
+            <p class="language-1"># Python</p>
+            <p class="language-2"># Django</p>
+            <br><br>
+            <p class="descriptionprogress">This is social network with python-django and html/css.And You can visit repository.</p>
+            <a href="https://github.com/MaksimBondarev/ForestChill"><code class="hi-there-4">View on GitHub</code></a>
+        </div>
+
+        <div class="cloud">
+            <p class="forest-chill">ChillProger</p>
+            <img src="https://rida.dev/src/webp/project-game.webp" class="prev-photo" width="100px">
+            <div style="clear: left"></div>
+            <p class="language-1"># Python</p>
+            <p class="language-2"># html/css</p>
+            <br><br>
+            <p class="descriptionprogress">This is social network with python-django and html/css.And You can visit repository.</p>
+            <a href="https://github.com/MaksimBondarev/ChillProger"><code class="hi-there-4">View on GitHub</code></a>
+        </div>
+
+        <div class="cloud">
+            <p class="forest-chill">JumpBall</p>
+            <img src="https://rida.dev/src/webp/project-tool.webp" class="prev-photo" width="100px">
+            <div style="clear: left"></div>
+            <p class="language-1"># Python</p>
+            <p class="language-2"># Tkinter</p>
+            <br><br>
+            <p class="descriptionprogress">This is social network with python-django and html/css.And You can visit repository.</p>
+            <a href="https://github.com/MaksimBondarev/JumpBall"><code class="hi-there-4">View on GitHub</code></a>
+        </div>
+    </div>
+
+<br><br><br>
+<div class="github" style="text-align:center;" id="contact">
+
+        <div class="github">
+            <a class="href-github" href="https://github.com/MaksimBondarev">
+                <p class="konkurs">GitHub</p>
+            </a>
+        </div>
+
+    <a class="href-github-2" href="mailto:chillproger@gmail.com">
+        <p class="konkurs-1">Contact me</p>
+    </a>
+
+</div>
+
+{% endblock content %}
+{% block script %}
+{% endblock script %}
